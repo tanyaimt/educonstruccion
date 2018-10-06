@@ -1,0 +1,25 @@
+$ventas = "";
+$sistemas = "";
+$rh = "";
+$produccion = "";
+$obrero = "";
+$logistica = "";
+$inventario = "";
+$gerencia = "";
+$fiscal = "";
+$finanzas = "";
+$cliente = "";
+$calidad = "";
+
+$sesioncalidad=(isset($sesioncalidad) ? $sesioncalidad : "1");
+$sesioncliente=(isset($sesioncliente) ? $sesioncliente : "1");
+$sesionfinanzas=(isset($sesionfinanzas) ? $sesionfinanzas : "1");
+$sesionfiscal=(isset($sesionfiscal) ? $sesionfiscal : "1");
+$sesiongerencia=(isset($sesiongerencia) ? $sesiongerencia : "1");
+$sesioninventario=(isset($sesioninventario) ? $sesioninventario : "1");
+$sesionlogistica=(isset($sesionlogistica) ? $sesionlogistica : "1");
+$sesionobrero=(isset($sesionobrero) ? $sesionobrero : "1");
+$sesionproduccion=(isset($sesionproduccion) ? $sesionproduccion : "1");
+$sesionrh=(isset($sesionrh) ? $sesionrh : "1");
+$sesionsistemas=(isset($sesionsistemas) ? $sesionsistemas : "1");
+$sesionventas=(isset($sesionventas) ? $sesionventas : "1");
