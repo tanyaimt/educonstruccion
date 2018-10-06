@@ -1,0 +1,196 @@
+*{
+	margin:0;
+}
+html,body{
+	height: 100%;
+	margin: 0;
+	background-color: #fff;
+}
+
+h1,h2,h3,h4,h5,,h6{
+	margin-bottom: 20 px;
+	padding: 20px;
+}
+#texto{
+	background-color: rgba(30,30,30,.8);
+	font-size: 20px;
+	width: 80%;
+	border-radius: 20px;
+	padding: 50px;
+	text-align: justify;
+	color: #fff;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+	margin:20px;
+}
+#textoForm{
+	font-size: 14px;
+	text-align: justify;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+	font-style: normal;
+}
+.menu1{
+	position: fixed;
+	width:100%;
+	z-index: 99;
+	height: 50px;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+.menu1 a{
+	text-decoration: none;
+	color:#fff;
+	margin-left:30px;
+	line-height: 50px; 
+}
+.menu2{
+	position: fixed;
+	width:100%;
+	z-index: 99;
+	height: 75px;
+	background-color: rgba(0,0,0,.5);
+	text-align: center;
+}
+.menu2 a{
+	text-decoration: none;
+	color:#fff;
+	margin-left:30px;
+	line-height: 125px;
+	font-size:x-small;
+}
+.sect{
+	height: 100%;
+	background-color: #fff;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
+.subSection{
+
+	background-color: #fff;
+
+}
+.Footer{
+	height: 50%;
+	background-color: #333;
+
+}
+.sectOne{
+	background-image: url("../img/im1.jpg");
+	background-attachment: fixed;
+
+}
+.sectTwo{
+	background-image: url("../img/im2.jpg");	
+	background-attachment: fixed;
+}
+.sectThree{
+	background-image: url("../img/im3.jpg");
+	background-attachment: fixed;
+}
+.sectFour{
+	background-image: url("../img/im4.jpg");
+	background-attachment: fixed;
+}
+.sectFive{
+	background-image: url("../img/im5.jpg");
+	background-attachment: fixed;
+}
+.sectSix{
+	background-image: url("../img/im6.jpg");
+	background-attachment: fixed;
+}
+.sectSeven{
+	background-image: url("../img/im7.jpg");
+	background-attachment: fixed;
+}
+.mapa{
+	background-image: url("../img/map.png");
+	width:600px;
+	height: 400px;
+	padding-left: 20px;
+	border-left: 20px;
+}
+.mapa1{
+	background-image: url("../img/map.png");
+	width:300px;
+	height: 200px;
+	padding-left: 20px;
+	border-left: 20px;
+}
+#form1{
+	background-color: rgba(30,30,30,.8);
+	width: 80%;
+	padding: 50px;
+	border-radius: 20px;
+	margin:20px;
+	color: #fff;
+	font-style: none;
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #FC0001;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.table1 {
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.table1 th, td {
+    text-align: left;
+    padding: 4px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.table1 tr:nth-child(even){
+	background-color: #f2f2f2;
+	color:black;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.table1 th {
+    background-color: #FC0001;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
